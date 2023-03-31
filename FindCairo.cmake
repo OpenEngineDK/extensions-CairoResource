@@ -9,6 +9,7 @@ FIND_PATH(CAIRO_INCLUDE_DIR NAMES cairo.h
     /opt/local/include/cairo
     /usr/local/include/cairo
     /usr/include/cairo
+    /opt/homebrew/include/cairo
     /usr/include
     /usr/local/include
 )
@@ -18,6 +19,7 @@ FIND_LIBRARY(CAIRO_LIB NAMES cairo
 	${PROJECT_SOURCE_DIR}/libraries/cairo/lib
 	/opt/local/lib
 	/usr/local/lib
+    /opt/homebrew/lib
 	/usr/lib
 )
 
